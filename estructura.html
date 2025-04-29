@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Estructura Celular</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"> 
+  <style>
+    body { font-family: 'Segoe UI', sans-serif; background-color: #f9f9f9; line-height: 1.7; }
+    header { background: linear-gradient(90deg, #007bff 0%, #00c2ff 100%); color: white; text-align: center; padding: 30px 0; margin-bottom: 30px; }
+    h1, h2, h3 { color: #007bff; margin-top: 30px; }
+    section { margin-bottom: 40px; }
+    footer { background-color: #343a40; color: white; text-align: center; padding: 20px 0; margin-top: 60px; }
+    aside { background-color: #f0f8ff; padding: 20px; border-left: 5px solid #00aaff; border-radius: 5px; margin-top: 30px; }
+    img { max-width: 100%; border-radius: 8px; margin: 15px 0; }
+    iframe { width: 100%; height: 300px; border-radius: 8px; margin-bottom: 20px; }
+    .highlight { background-color: #e6f7ff; padding: 10px; border-left: 3px solid #007bff; border-radius: 4px; margin: 20px 0; }
+    .nav-link:hover { text-decoration: underline; }
+
+    /* Estilo para el cuadro de 'sabías que' */
+    #mensaje {
+      background-color: #fff3cd;
+      color: #856404;
+      border: 1px solid #ffeeba;
+      padding: 20px;
+      margin-top: 30px;
+      text-align: center;
+      font-weight: bold;
+      border-radius: 5px;
+    }
+
+    /* Estilo para el reloj */
+    #reloj {
+      font-size: 24px;
+      font-weight: bold;
+      color: white;
+      background-color: #007bff;
+      padding: 10px;
+      border-radius: 5px;
+      margin-top: 20px;
+    }
+
+  </style>
+</head>
+<body>
+
+<!-- Navbar -->
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+  <a class="navbar-brand" href="index.html">Biología</a>
+  <div class="collapse navbar-collapse">
+    <ul class="navbar-nav ml-auto">
+      <li class="nav-item"><a class="nav-link" href="index.html">Inicio</a></li>
+      <li class="nav-item"><a class="nav-link active" href="estructura.html">Estructura Celular</a></li>
+      <li class="nav-item"><a class="nav-link" href="teoria.html">Teoría Celular</a></li>
+      <li class="nav-item"><a class="nav-link" href="organismos.html">Organismos</a></li>
+    </ul>
+  </div>
+</nav>
+
+<!-- Header -->
+<header>
+  <h1>Estructura Celular</h1>
+  <p>Explora el fascinante universo de las células, sus componentes y funciones.</p>
+  <!-- Reloj -->
+  <div id="reloj"></div>
+</header>
+
+<!-- Cuadro "Sabías qué" -->
+<div id="mensaje">
+  ¿Sabías qué?: La forma de una célula puede variar según su función.
+</div>
+
+<!-- Main Content -->
+<div class="container">
+  <div class="row">
+    <!-- Main Column -->
+    <div class="col-md-8">
+      
+      <section>
+        <h2>¿Qué es una célula?</h2>
+        <p>La célula es la unidad estructural, funcional y genética de todos los seres vivos. A pesar de su pequeño tamaño, las células realizan todas las funciones necesarias para la vida. Existen dos tipos principales: <strong>procariotas</strong> (más simples, sin núcleo definido) y <strong>eucariotas</strong> (más complejas, con núcleo).</p>
+        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/73/Cell_structure.svg/1200px-Cell_structure.svg.png" alt="Estructura básica de la célula">
+      </section>
+
+      <section>
+        <h2>Células Procariotas</h2>
+        <p>Las células procariotas son típicas de bacterias y arqueas. Son pequeñas, simples y carecen de orgánulos membranosos. Su ADN está concentrado en una región llamada <strong>nucleoide</strong>. Aunque simples, tienen estructuras especializadas como flagelos para moverse y pili para adherirse a superficies.</p>
+        <img src="https://upload.wikimedia.org/wikipedia/commons/3/36/Prokaryote_cell_diagram.svg" alt="Célula procariota">
+        <div class="highlight">
+          👉 Ejemplos: *Escherichia coli*, *Mycobacterium tuberculosis*.
+        </div>
+      </section>
+
+      <section>
+        <h2>Células Eucariotas</h2>
+        <p>Estas células son propias de animales, plantas, hongos y protistas. Son más grandes y complejas, con <strong>núcleo verdadero</strong> y <strong>orgánulos membranosos</strong>. Cada orgánulo tiene funciones específicas: producir energía, sintetizar proteínas, eliminar desechos, etc.</p>
+        <img src="https://upload.wikimedia.org/wikipedia/commons/e/e1/Organelles_labeled.svg" alt="Célula eucariota">
+        <ul>
+          <li><strong>Núcleo:</strong> almacena el material genético.</li>
+          <li><strong>Mitocondria:</strong> centro energético (produce ATP).</li>
+          <li><strong>Retículo endoplasmático rugoso:</strong> síntesis de proteínas.</li>
+          <li><strong>Aparato de Golgi:</strong> procesamiento y empaquetamiento de sustancias.</li>
+          <li><strong>Lisosomas:</strong> digestión celular.</li>
+        </ul>
+      </section>
+
+      <section>
+        <h2>¿Cómo se diferencian las células animales y vegetales?</h2>
+        <p>Las células vegetales poseen <strong>pared celular</strong> rígida, <strong>cloroplastos</strong> para fotosíntesis y <strong>vacuola central</strong> grande para almacenar agua y nutrientes. En cambio, las células animales carecen de estas estructuras pero cuentan con <strong>centrosoma</strong> con centríolos.</p>
+        <img src="https://i.pinimg.com/originals/f1/73/c1/f173c11e6ec46e0a74e42eec772a17e3.jpg" alt="Comparación célula vegetal y animal">
+      </section>
+
+      <section>
+        <h2>Video Recomendado 🎥</h2>
+        <p>Descubre visualmente cómo funciona una célula por dentro:</p>
+        <iframe src="https://www.youtube.com/embed/URUJD5NEXC8" allowfullscreen></iframe>
+      </section>
+      
+    </div>
+
+    <!-- Aside -->
+    <div class="col-md-4">
+      <aside>
+        <h4>🔍 Curiosidades Celulares</h4>
+        <ul>
+          <li>El cuerpo humano tiene alrededor de <strong>37 billones</strong> de células.</li>
+          <li>Una célula vegetal puede medir hasta <strong>100 micras</strong>.</li>
+          <li>El núcleo celular fue descubierto por <strong>Robert Brown</strong>.</li>
+        </ul>
+        <h4>📚 Recursos recomendados</h4>
+        <ul>
+          <li><a href="https://es.wikipedia.org/wiki/Célula_(biología)" target="_blank">Wikipedia - Célula</a></li>
+          <li><a href="https://www.khanacademy.org/science/biology" target="_blank">Khan Academy</a></li>
+          <li><a href="https://www.nationalgeographic.com/science/article/cells" target="_blank">National Geographic</a></li>
+        </ul>
+        <h4>🧪 Experimento divertido</h4>
+        <p>Observa la epidermis de una cebolla bajo un microscopio casero para ver células vivas en tiempo real.</p>
+      </aside>
+    </div>
+  </div>
+</div>
+
+<!-- Footer -->
+<footer>
+  <p>&copy; 2025 Mundo Celular - Todos los derechos reservados</p>
+</footer>
+
+<script>
+  // Función para mostrar el reloj
+  function mostrarHora() {
+    const relojElement = document.getElementById("reloj");
+    const ahora = new Date();
+    let horas = ahora.getHours();
+    let minutos = ahora.getMinutes();
+    let segundos = ahora.getSeconds();
+
+    // Añadir un 0 delante de los números menores de 10
+    horas = horas < 10 ? "0" + horas : horas;
+    minutos = minutos < 10 ? "0" + minutos : minutos;
+    segundos = segundos < 10 ? "0" + segundos : segundos;
+
+    // Mostrar la hora en formato HH:MM:SS
+    relojElement.textContent = `${horas}:${minutos}:${segundos}`;
+  }
+
+  // Actualizar la hora cada segundo
+  setInterval(mostrarHora, 1000);
+</script>
+
+</body>
+</html>
